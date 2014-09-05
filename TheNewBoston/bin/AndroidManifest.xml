@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thenewboston.ronak"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.thenewboston.ronak.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SQLView"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.thenewboston.ronak.SQLVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.thenewboston.ronak.StartingPoint"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.thenewboston.ronak.STARTINGPOINT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.thenewboston.ronak.Prefs"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.thenewboston.ronak.PREFS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.thenewboston.ronak.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.thenewboston.ronak.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.thenewboston.ronak.AboutUs"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="com.thenewboston.ronak.ABOUT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.thenewboston.ronak.Text"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name="com.thenewboston.ronak.SoundStuff"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name="com.thenewboston.ronak.InternalData"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name="com.thenewboston.ronak.GFXSurface"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.thenewboston.ronak.SQLiteexample"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.thenewboston.ronak.SharedPrefs"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name="com.thenewboston.ronak.ExternalData"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.thenewboston.ronak.GFX"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name="com.thenewboston.ronak.Browser"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name="com.thenewboston.ronak.Tabs"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name="com.thenewboston.ronak.Flipper"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name="com.thenewboston.ronak.Slider"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.thenewboston.ronak.Camera"
+            android:label="Camera Application"
+            android:screenOrientation="portrait" >
+            
+        </activity>
+         <activity
+            android:name="com.thenewboston.ronak.Email"
+            android:label="@string/app_name" >
+            
+        </activity>
+        <activity
+            android:name="com.thenewboston.ronak.HotorNot"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name="com.thenewboston.ronak.AccelerometerProject"
+            android:label="AccelerometerBasedBall" 
+            android:screenOrientation="portrait">
+            
+        </activity>
+        <activity
+            android:name="com.thenewboston.ronak.Watermark"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name="com.thenewboston.ronak.Size"
+            android:label="@string/app_name" >
+            
+        </activity>
+          <activity
+            android:name="com.thenewboston.ronak.Watermarkprocess"
+            android:label="@string/app_name" >
+            
+        </activity>
+         <activity
+            android:name="com.thenewboston.ronak.DimensionsofWatermark"
+            android:label="@string/app_name" >
+            
+        </activity>
+         
+    </application>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    
+    
+
+</manifest>

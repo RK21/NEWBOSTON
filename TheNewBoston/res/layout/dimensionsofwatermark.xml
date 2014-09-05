@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvWatermarkText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Watermark Text" />
+
+    <EditText
+        android:id="@+id/etWatermarkText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint = "Watermark Text" >
+
+        
+    </EditText>
+
+    
+    <TextView
+        android:id="@+id/tvWatermarkSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Size of Watermark" />
+
+    <EditText
+        android:id="@+id/etWatermarkSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint = "Watermark Size"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/bApply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apply" />
+
+    <Button
+        android:id="@+id/bSaveWaterMarkedImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+    <ImageView
+        android:id="@+id/ivWatermarkedImage"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_gravity = "center"
+        android:src="@drawable/ic_launcher" />
+
+</LinearLayout>

@@ -1,0 +1,107 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (javaClasses.cpp:136), pid=3408, tid=10008
+#  fatal error: Invalid layout of preloaded class
+#
+# JRE version:  (7.0_45-b18) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (24.45-b08 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000002020800):  JavaThread "Unknown thread" [_thread_in_vm, id=10008, stack(0x0000000001e40000,0x0000000001f40000)]
+
+Stack: [0x0000000001e40000,0x0000000001f40000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000002020800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=10008, stack(0x0000000001e40000,0x0000000001f40000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+Events (10 events):
+Event: 0.009 loading class 0x0000000002066e70 done
+Event: 0.009 loading class 0x0000000002066890 done
+Event: 0.009 loading class 0x0000000002066870
+Event: 0.009 loading class 0x000000000206e970
+Event: 0.009 loading class 0x000000000206e970 done
+Event: 0.009 loading class 0x000000000206e9a0
+Event: 0.009 loading class 0x000000000206e9a0 done
+Event: 0.009 loading class 0x000000000206e9d0
+Event: 0.009 loading class 0x000000000206e9d0 done
+Event: 0.010 loading class 0x0000000002066870 done
+
+
+Dynamic libraries:
+0x000007f7a1720000 - 0x000007f7a1753000 	C:\Program Files\Java\jre7\bin\javaw.exe
+0x000007fe26020000 - 0x000007fe261e0000 	C:\windows\SYSTEM32\ntdll.dll
+0x000000006d3d0000 - 0x000000006d41a000 	C:\Program Files\AVAST Software\Avast\snxhk64.dll
+0x000007fe25ee0000 - 0x000007fe26016000 	C:\windows\system32\KERNEL32.dll
+0x000007fe23330000 - 0x000007fe23423000 	C:\windows\system32\KERNELBASE.dll
+0x000007fe25b00000 - 0x000007fe25bde000 	C:\windows\system32\ADVAPI32.dll
+0x000007fe24cc0000 - 0x000007fe24e0c000 	C:\windows\system32\USER32.dll
+0x000007fe20f30000 - 0x000007fe2119a000 	C:\windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9200.16579_none_418ab7ef718b27ef\COMCTL32.dll
+0x000007fe25e30000 - 0x000007fe25ed5000 	C:\windows\system32\msvcrt.dll
+0x000007fe25ab0000 - 0x000007fe25af8000 	C:\windows\SYSTEM32\sechost.dll
+0x000007fe24940000 - 0x000007fe24a80000 	C:\windows\system32\RPCRT4.dll
+0x000007fe25970000 - 0x000007fe25ab0000 	C:\windows\system32\GDI32.dll
+0x000007fe25930000 - 0x000007fe25969000 	C:\windows\system32\IMM32.DLL
+0x000007fe24e10000 - 0x000007fe24f25000 	C:\windows\system32\MSCTF.dll
+0x000000006d7f0000 - 0x000000006d8c2000 	C:\Program Files\Java\jre7\bin\msvcr100.dll
+0x000000006aa50000 - 0x000000006b219000 	C:\Program Files\Java\jre7\bin\server\jvm.dll
+0x000007fe11de0000 - 0x000007fe11de9000 	C:\windows\SYSTEM32\WSOCK32.dll
+0x000007fe1ef60000 - 0x000007fe1ef80000 	C:\windows\SYSTEM32\WINMM.dll
+0x000007fe25bf0000 - 0x000007fe25bf7000 	C:\windows\system32\PSAPI.DLL
+0x000007fe24890000 - 0x000007fe248e8000 	C:\windows\system32\WS2_32.dll
+0x000007fe1ef20000 - 0x000007fe1ef52000 	C:\windows\SYSTEM32\WINMMBASE.dll
+0x000007fe24cb0000 - 0x000007fe24cb9000 	C:\windows\system32\NSI.dll
+0x000000006d7e0000 - 0x000000006d7ef000 	C:\Program Files\Java\jre7\bin\verify.dll
+0x000000006d7b0000 - 0x000000006d7d8000 	C:\Program Files\Java\jre7\bin\java.dll
+0x000000006d790000 - 0x000000006d7a5000 	C:\Program Files\Java\jre7\bin\zip.dll
+
+VM Arguments:
+jvm_args: -Dfile.encoding=Cp1252 -Xbootclasspath:G:\ANDROID SOFTWARES\adt-bundle-windows-x86_64-20130729\adt-bundle-windows-x86_64-20130729\sdk\platforms\android-18\android.jar 
+java_command: com.thenewboston.ronak.Filepath
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+PATH=C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\MATLAB\R2010a\runtime\win64;C:\Program Files\MATLAB\R2010a\bin;C:\Program Files\Java\jdk1.7.0_40\bin;G:\ANDROID SOFTWARES\adt-bundle-windows-x86_64-20130729\adt-bundle-windows-x86_64-20130729\sdk;G:\ANDROID SOFTWARES\adt-bundle-windows-x86_64-20130729\adt-bundle-windows-x86_64-20130729\sdk\tools;G:\ANDROID SOFTWARES\adt-bundle-windows-x86_64-20130729\adt-bundle-windows-x86_64-20130729\sdk\platform-tools;C:\Opencv2.0\bin
+USERNAME=Ronak
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 8 , 64 bit Build 9200 
+
+CPU:total 4 (2 cores per cpu, 2 threads per core) family 6 model 58 stepping 9, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, avx, erms, ht, tsc, tscinvbit, tscinv
+
+Memory: 4k page, physical 3888668k(2321612k free), swap 7820832k(4604336k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (24.45-b08) for windows-amd64 JRE (1.7.0_45-b18), built on Oct  8 2013 05:47:22 by "java_re" with unknown MS VC++:1600
+
+time: Thu Dec 12 12:15:03 2013
+elapsed time: 0 seconds
+

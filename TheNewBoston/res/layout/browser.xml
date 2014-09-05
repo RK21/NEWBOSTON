@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100" >
+         
+    <EditText
+        android:id="@+id/eTBrowser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="30"
+        android:ems="10" >
+
+        
+    </EditText>
+    <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bGo"
+        android:text="Go"
+        android:layout_weight="70"
+        />
+    
+    </LinearLayout>
+     <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="8" >
+    
+         <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bBack"
+        android:text="Back Page"
+        android:layout_weight="2"
+        />
+          <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bForward"
+        android:text="Forward Page"
+        android:layout_weight="2"
+        />
+           <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bReload"
+        android:text="Reload Page"
+        android:layout_weight="2"
+        />
+            <Button 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bClearHistory"
+        android:text="Clear History"
+        android:layout_weight="2"
+        />
+
+    </LinearLayout>
+
+     <WebView
+         android:id="@+id/wVBrowser"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent" />
+
+</LinearLayout>
+  
+   
